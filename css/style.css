@@ -1,0 +1,22 @@
+.navbar {
+    color: white !important;
+}
+
+
+.jumbotron {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../img/heroSec.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    height: 100vh;
+
+
+}
+
+#jumboText {
+    margin-top: 180px;
+}
+
+
+
