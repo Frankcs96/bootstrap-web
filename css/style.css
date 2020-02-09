@@ -3,6 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.title {
+    font-family: 'Dancing Script', cursive;
+}
+
 /* Navbar*/
 
 
@@ -74,6 +78,21 @@ body {
 .blue:hover {
     background-color: #6FC6FF;
 }
+
+/* History section */
+
+#anne {
+    width: 600px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+#dique {
+    width: 300px;
+    height: 150px;
+
+}
+
 
 
 
