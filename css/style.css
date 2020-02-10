@@ -41,7 +41,7 @@ body {
     text-align: center;
     color: #fff;
     position: relative;
-    height: 740px;
+    height: 100vh;
     font-family: 'Dancing Script', cursive;
 
 }
@@ -111,6 +111,8 @@ body {
     margin: 0 auto;
     margin-top: 20px;
 }
+
+
 
 
 
