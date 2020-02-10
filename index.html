@@ -15,6 +15,7 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- My style -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/audioplayer.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
@@ -226,7 +227,9 @@
                         <h5 class="card-title">Erwtensoep</h5>
                         <p class="card-text">if you’ve encountered cooler weather. Take a moment to
                             sit down and take warm cup of soup</p>
-                        <a target="_blank" href="https://www.holland.com/global/tourism/information/general/traditional-food/dutch-pea-soup.htm" class="btn btn-primary">Learn more</a>
+                        <a target="_blank"
+                           href="https://www.holland.com/global/tourism/information/general/traditional-food/dutch-pea-soup.htm"
+                           class="btn btn-primary">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -236,8 +239,11 @@
                     <img src="img/stroopwafel.jpg" class="card-img-top" alt="stroopwafel">
                     <div class="card-body">
                         <h5 class="card-title">Stroopwafels</h5>
-                        <p class="card-text">two cookies and a caramel center. It is a traditional and popular treat originated in the city of Gouda.</p>
-                        <a target="_blank" href="https://www.holland.com/global/tourism/information/general/traditional-food/stroopwafels-1.htm" class="btn btn-primary">Learn more</a>
+                        <p class="card-text">two cookies and a caramel center. It is a traditional and popular treat
+                            originated in the city of Gouda.</p>
+                        <a target="_blank"
+                           href="https://www.holland.com/global/tourism/information/general/traditional-food/stroopwafels-1.htm"
+                           class="btn btn-primary">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -247,8 +253,11 @@
                     <img src="img/stampot.jpg" class="card-img-top" alt="stampot">
                     <div class="card-body">
                         <h5 class="card-title">Stamppot</h5>
-                        <p class="card-text">a pan full of mashed potatoes and a vegetable. There are several varieties that are traditional.</p>
-                        <a target="_blank" href="https://www.holland.com/global/tourism/information/general/traditional-food/recipe-endive-stew.htm" class="btn btn-primary">Learn more</a>
+                        <p class="card-text">a pan full of mashed potatoes and a vegetable. There are several varieties
+                            that are traditional.</p>
+                        <a target="_blank"
+                           href="https://www.holland.com/global/tourism/information/general/traditional-food/recipe-endive-stew.htm"
+                           class="btn btn-primary">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -256,7 +265,41 @@
 
         </div>
 
+    </div>
 
+    <div id="anthem" class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="display-4 text-center">Wilhelmus van Nassouwe</h3>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>National anthem of the Kingdom of the Netherlands. It dates back to at least 1572, making it the
+                    national anthem with the oldest music.</p>
+                <p>The "Wilhelmus" originated in the Dutch Revolt, the nation's struggle to achieve independence from
+                    the Spanish Empire. It tells of the Father of the Nation William of Orange who was stadholder in the
+                    Netherlands under the King of Spain. In the first person, as if quoting himself, William speaks to
+                    the Dutch people about both the revolt and his own, personal struggle: to be faithful to the
+                    king,[4] without being unfaithful to his conscience: to serve God and the Dutch people.</p>
+                <div >
+                    <img class="mx-auto d-block mb-4" id="dutchRev" src="img/anthem.jpg" alt="dutch revolution">
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+
+                <div class="example" id="audioplayer">
+
+                    <audio crossorigin>
+                        <source src="audio/anthem.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -274,5 +317,6 @@
 <script src="js/navbar.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/smoothScroll.js"></script>
+<script src="js/audioplayer.js"></script>
 </body>
 </html>
