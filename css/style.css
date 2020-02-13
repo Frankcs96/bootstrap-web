@@ -112,7 +112,7 @@ body {
 }
 
 #audioplayer{
-    margin: 0 auto;
+    width: auto;
 }
 
 #demo {
