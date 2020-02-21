@@ -146,5 +146,10 @@ body {
     background-color: #eaeaea;
 }
 
+#forMessage {
+    resize: none;
+    height: 130px;
+}
+
 
 
